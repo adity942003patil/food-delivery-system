@@ -1,0 +1,37 @@
+/* navigation section */
+#navbar{
+    flex-direction: column;
+}
+/* home section */
+#home{
+    margin: 20px 134px;
+    height: 650px;
+}
+#home::before{
+    height: 75%;
+}
+/* services section */
+#services{
+    display: flex;
+    flex-direction:column;
+}
+#services .box{
+    margin: 40px 50px;
+}
+.services{
+    margin: 280px 20px 75px 20px;
+}
+/* clients section */
+#client-section::before{
+    height: 12%;
+}
+.client-box{
+    overflow: hidden;
+}
+/* contact section */
+form{
+    margin-top: -60px;
+}
+#contacts::before{
+    height: 30%;
+}
